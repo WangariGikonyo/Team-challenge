@@ -39,7 +39,8 @@ body{
     line-height: 27px;
 }
 .section-two{
-    margin-top: 20px;
+    margin-top: 96px;
+    margin-bottom: 90px;
     display: grid;
     grid-template-columns: auto auto auto;
 }
@@ -190,4 +191,21 @@ body{
     text-transform: uppercase;
     transform: rotate(90deg);
     margin: 0;
+}
+.footer{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.footer .username{
+    color:#000000;
+    font-weight: bold;
+
+}
+.footer .dev{
+    color:#000000;
+    text-decoration: none;
+
 }
