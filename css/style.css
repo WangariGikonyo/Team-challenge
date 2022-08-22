@@ -1,0 +1,40 @@
+.reddish{border: 1px solid red;}
+.blueish{border: 1px solid blue;}
+body{
+    padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 24px;
+    background-color: #FAFAFA;
+    color:#000000;;
+}
+.section-one{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.section-one .title p{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    margin: 0;
+    
+}
+.who-we-are h4{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin: 0;
+}
+.who-we-are .content{
+    width: 439px;
+    height: 87px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
