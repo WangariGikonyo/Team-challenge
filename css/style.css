@@ -54,14 +54,6 @@ body{
     height: 341px; 
     background-size: cover;
 }
- .second-child{
-    font-family: 'Poppins';
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    margin-top: 10px;
-}
-
 .first-card  .role p{
     position: absolute;
     top: 44px;
@@ -74,6 +66,14 @@ body{
     transform: rotate(90deg);
     margin: 0;
 }
+ .second-child{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
 .second-card{
     width: 264px;
     height: 383px;
@@ -110,6 +110,76 @@ body{
     background-size: cover;
 }
 .third-card  .role p{
+    position: absolute;
+    top: 29px;
+    right: -26px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 0;
+}
+.fourth-card{
+    width: 264px;
+    height: 383px;
+    position: relative;
+}
+.fourth-card .first-child{
+    background-image: url(../assets/photo4.png);
+    width: 238px;
+    height: 341px; 
+    background-size: cover;
+}
+.fourth-card  .role p{
+    position: absolute;
+    top: 31px;
+    right: -29px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 0;
+}
+.fifth-card{
+    width: 264px;
+    height: 383px;
+    position: relative;  
+    margin-top: 100px;
+}
+.fifth-card .first-child{
+    background-image: url(../assets/photo5.png);
+    width: 238px;
+    height: 341px; 
+    background-size: cover;
+}
+.fifth-card  .role p{
+    position: absolute;
+    top: 27px;
+    right: -23px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 0;
+}
+.sixth-card{
+    width: 264px;
+    height: 383px;
+    position: relative;
+}
+.sixth-card .first-child{
+    background-image: url(../assets/photo6.png);
+    width: 238px;
+    height: 341px; 
+    background-size: cover;
+}
+.sixth-card  .role p{
     position: absolute;
     top: 29px;
     right: -26px;
