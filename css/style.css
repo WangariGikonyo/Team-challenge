@@ -38,3 +38,86 @@ body{
     font-size: 18px;
     line-height: 27px;
 }
+.section-two{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+ .first-card{
+    width: 264px;
+    height: 383px;
+    position: relative;
+}
+.first-card .first-child{
+    background-image: url(../assets/photo1.png);
+    width: 238px;
+    height: 341px; 
+    background-size: cover;
+}
+ .second-child{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+}
+
+.first-card  .role p{
+    position: absolute;
+    top: 44px;
+    right: -37px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 0;
+}
+.second-card{
+    width: 264px;
+    height: 383px;
+    position: relative;  
+    margin-top: 100px;
+}
+.second-card .first-child{
+    background-image: url(../assets/photo2.png);
+    width: 238px;
+    height: 341px; 
+    background-size: cover;
+}
+.second-card  .role p{
+    position: absolute;
+    top: 34px;
+    right: -31px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 0;
+}
+.third-card{
+    width: 264px;
+    height: 383px;
+    position: relative;
+}
+.third-card .first-child{
+    background-image: url(../assets/photo3.png);
+    width: 238px;
+    height: 341px; 
+    background-size: cover;
+}
+.third-card  .role p{
+    position: absolute;
+    top: 29px;
+    right: -26px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    margin: 0;
+}
