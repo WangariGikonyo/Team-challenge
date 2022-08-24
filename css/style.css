@@ -226,12 +226,21 @@ For mobile phones */
     .section-one{
         display: block;
     }
-    .who-we-are{margin-top: 40px;}
+    .who-we-are{margin-top: 30px;}
     .section-two{
-        margin-top: 50px;
+        margin-top: 20px;
         margin-bottom: 90px;
         display: grid;
+        grid-gap:20px;
         grid-template-columns: auto auto;
+    }
+    .who-we-are .content{
+        Width:333px;
+        height:87px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
     }
     .second-child{
         font-size: 14px;
