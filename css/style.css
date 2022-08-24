@@ -209,3 +209,168 @@ body{
     text-decoration: none;
 
 }
+
+
+
+/* 
+For mobile phones */
+@media only screen and (max-width: 600px) {
+    body{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 30px;
+        padding-bottom: 24px;
+        background-color: #FAFAFA;
+        color: #000000;
+    }
+    .section-one{
+        display: block;
+    }
+    .who-we-are{margin-top: 40px;}
+    .section-two{
+        margin-top: 50px;
+        margin-bottom: 90px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .second-child{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .role p{
+        font-size: 10px;
+    }
+    .first-card{
+        width: 156px;
+        height: 237px;
+        position: relative;
+    }
+    .first-card .first-child{
+        width: 138.72px;
+        height: 209px;
+        
+    }
+    .first-card  .role p{
+        right:-45px !important;
+    }
+    .second-card{
+        width: 177.42px;
+        height: 283.69px;
+        position: relative;  
+        margin-top: 50px;
+    }
+    .second-card .first-child{
+        background-image: url(../assets/photo2.png);
+        width: 138px;
+        height: 209px; 
+        background-size: cover;
+    }
+    .second-card  .role p{
+        position: absolute;
+        top: 34px;
+        right: -15px;
+        font-family: 'PT Serif';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        margin: 0;
+    }
+    .third-card{
+        width: 154px;
+        height: 247px;
+        position: relative;
+    }
+    .third-card .first-child{
+        background-image: url(../assets/photo3.png);
+        width: 139px;
+        height: 219.44px;
+        background-size: cover;
+    }
+    .third-card  .role p{
+        position: absolute;
+        top: 29px;
+        right: -35px;
+        font-family: 'PT Serif';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        margin: 0;
+    }
+    .fourth-card{
+        width: 154px;
+        height: 248px;
+        position: relative;
+        margin-top: 50px;
+       
+    }
+    .fourth-card .first-child{
+        background-image: url(../assets/photo4.png);
+        width: 139px;
+        height: 220.46px; 
+        background-size: cover;
+    }
+    .fourth-card  .role p{
+        position: absolute;
+        top: 31px;
+        right: -33px;
+        font-family: 'PT Serif';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        margin: 0;
+    }
+    .fifth-card{
+        width: 154px;
+        height: 261px;
+        position: relative;  
+        margin-top: unset;
+    }
+    .fifth-card .first-child{
+        background-image: url(../assets/photo5.png);
+        width: 139px;
+        height: 226px; 
+        background-size: cover;
+    }
+    .fifth-card  .role p{
+        position: absolute;
+        top: 27px;
+        right: -29px;
+        font-family: 'PT Serif';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        margin: 0;
+    }
+    .sixth-card{
+        width: 155px;
+        height: 255px;
+        position: relative;
+        margin-top: 50px;
+    }
+    .sixth-card .first-child{
+        background-image: url(../assets/photo6.png);
+        width: 139.35px;
+        height: 220px;
+        background-size: cover;
+    }
+    .sixth-card  .role p{
+        position: absolute;
+        top: 29px;
+        right: -30px;
+        font-family: 'PT Serif';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        transform: rotate(90deg);
+        margin: 0;
+    }
+}
